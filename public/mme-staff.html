@@ -20,7 +20,17 @@
     <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css"> 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-     <script type="text/javascript" src="assets/js/expcal.js"></script> 
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+   <script> 
+$(function(){
+  $("#header").load("assets/images/ece/news-updates.html"); 
+ 
+});
+</script> 
 </head> 
 
 <body class="home-page">
@@ -64,18 +74,18 @@
                         <li class="nav-item"><a href="index.html">Home</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="index.html#">ADMINISTRATION <i class="fa fa-angle-down"></i></a>
-                             <ul class="dropdown-menu">
+                    <ul class="dropdown-menu">
                                    <li><a href="vc.html">Vice Chancellor</a></li>
                                 <li><a href="#">Director</a></li>
                                <li><a href="gc.html">Governing Council</a></li>
 <li><a href="administration-section.html">Administration</a></li>   
-                                <li><a href="cd.html">Communication Directory</a></li>
+                                <li><a href="cd.html">Communication Directory</a></li>  
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="index.html#">ACADEMICS <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="academicprogrammes.html">Academic Programmes</a></li>
+                                  <li><a href="academicprogrammes.html">Academic Programmes</a></li>
                                 <li><a href="curricula.html">Curricula</a></li>   
                                 <li><a href="academiccalender.html">Academic Calender</a></li>          
                                 <li><a href="departments.html">Departments</a></li>
@@ -86,7 +96,6 @@
                         <li class="active nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="index.html#">DEPARTMENTS <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-				<li><a href="bio-sciences.html">Bio Sciences</a><li>
                                 <li><a href="che.html">Chemical Engineering</a></li>
 				<li><a href="chemistry.html">Chemistry</a></li>
                                 <li><a href="ce.html">Civil Engineering</a></li>
@@ -126,9 +135,10 @@
                                 <li><a href="contactus.html">Contact Us</a></li>
                             </ul>
                         </li><!--//dropdown-->
-			<li class="nav-item"><a href="placement/">PLACEMENTS</a></li>
-			 <li class="nav-item"><a href="http://careers.rgukt.ac.in" target="_blank">Careers</a></li>
-                        <li class="nav-item"><a href="tenders.html">Tenders</a></li>
+			<li class="nav-item"><a href="examination.html">Examinations</a></li>
+<li class="nav-item"><a href="placement/">PLACEMENTS</a></li>
+			<li class="nav-item"><a href="http://careers.rgukt.ac.in" target="_blank">Careers</a></li>
+                        
                         <li class="nav-item"><a href="contactus.html">Contact</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -137,83 +147,237 @@
         
         <!-- ******CONTENT****** -->
         <div class="content container">
-            <div class="page-wrapper">
-                <header class="page-heading clearfix">
-                    <h1 class="heading-title pull-left">Computer Science & Engineering</h1>
-                    <div class="breadcrumbs pull-right">
-                        <ul class="breadcrumbs-list">
-                            <li class="breadcrumbs-label">You are here:</li>
-                            <li><a href="index.html">Home</a><i class="fa fa-angle-right"></i></li>
-			    <li><a href="departments.html">Departments</a><i class="fa fa-angle-right"></i></li>
-			    <li><a href="cse.html">Computer Science & Engineering</a><i class="fa fa-angle-right"></i></li>
-			    <li><a href="cse-faculty.html">Faculty</a></li>
-                        </ul>
-                    </div><!--//breadcrumbs-->
-                </header> 
-                <div class="page-content">
-                    <div class="row page-row">
-                        <aside class="page-sidebar col-md-3 col-sm-3 affix-top">                    
-                            <section class="widget well">
-                                <ul class="nav">
-                                 <li><a href="cse-faculty-ranjithkumarprofile.html">Ranjith Garnepudi</a></li>
-				<li><a href="cse-faculty-anjaneyuluendurthiprofile.html">Anjaneyulu Endurthi</a></li>
-				
+                  <div class="page-wrapper" style="margin-top:-20px;">
+                     <header class="page-heading clearfix">
+                        <div class="breadcrumbs pull-right">
+                           <ul class="breadcrumbs-list">
+                              <li class="breadcrumbs-label">You are here:</li>
+                              <li><a href="index.html">Home</a><i class="fa fa-angle-right"></i></li>
+                              <li><a href="departments.html">Departments</a><i class="fa fa-angle-right"></i></li>
+                              <li><a href="mme.html">Metallurgical and Materials Engineering</a><i class="fa fa-angle-right"></i></li>
+			      <li class="current">Staff</li>
+                           </ul>
+                        </div>
+                        <!--//breadcrumbs-->
+                     </header>
+                     <div class="page-content" style="margin-top:-20px;">
+                        
+                           <aside class="page-sidebar col-md-2 col-sm-3 affix-top">
+			     <section>
+                              <nav id="sidebar">
+                                 <ul class="list-unstyled components">
+                                    <!--<li>
+                                       <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home <i class="fa fa-angle-down"></i></a>
+                                       <ul class="collapse list-unstyled" id="homeSubmenu">
+                                          <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Home 1</a>
+                                          </li>
+                                          <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Home 2</a>
+                                          </li>
+                                          <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Home 3</a>
+                                          </li>
+                                       </ul>
+                                    </li>-->
+                                    <li>
+                                       <a href="mme.html">Home</a>
+                                    </li>
+				    <li>
+                                       <a href="#" target="_blank">Academic Programmes</a>
+                                    </li>
+				     <li>
+                                       <a href="mme-Curriculum.html">Curriculum</a>
+                                     </li>
+                                    <li>
+                                       <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">People <i class="fa fa-angle-down"></i></a>
+                                       <ul class="collapse list-unstyled" id="pageSubmenu">
+                                          
+                                          <li class="active">
+                                             <a href="mme-faculty.html"><i class="fa fa-angle-right"></i>Faculty</a>
+                                          </li>
+                                          <li>
+                                             <a href="mme-staff.html"><i class="fa fa-angle-right"></i>Staff</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+				     </li>
+				     <li>
+                                       <a href="#">Research/Consultancy</a>
+                                    </li>
+                                     <li>
+                                       <a href="#" target="_blank">Research Publications</a>
+                                    </li>
+                                      <li>
+                                       <a href="#pageSub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Facilities <i class="fa fa-angle-down"></i></a>
+                                       <ul class="collapse list-unstyled" id="pageSub">
+                                          <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Laboratories</a>
+					     <li><a href="#" target="_blank"><i class="fa fa-angle-right" style="margin-left:20px;"></i> LAB Manuals</a></li>
+                                          </li>
+                                          <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Library</a>
+                                          </li>
+                                          <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Recording Room</a>
+                                          </li>
+					  <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Seminar Hall</a>
+                                          </li>
+					  <li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Faculty Conference Room</a>
+                                          </li>
+					<li>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Faculty lounge</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+					<li>
+                                       <a>Committees</a>
+                                    </li>
+					<li>
+                                       <a href="#">Events</a>
+                                     </li>
+<li>
+                                       <a href="#">Student Guidlines</a>
+                                     </li>
+					<li>
+                                       <a href="#">Formats & Downloads</a>
+                                     </li>
+					<li>
+                                       <a>Department Layout</a>
+                                     </li>
+					<li>
+                                       <a href="#" target="_blank"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i> Youtube Channel</a>
+                                     </li>
+                                 </ul>
+                              </nav>
+				</section>
+				<section class="panel panel-darkblue">
+                           <h5 class="panel-heading no-margin-top"><strong>Contact</strong></h5>
+                           <div class="section-content panel-body">
+                             <p>HoD/Metallurgical and Materials Engineering
 
-				<li><a href="cse-faculty-revyanaikprofile.html">Revya Naik</a></li>
-
-				<li class="active"><a>Srujana G</a></li>
-				<li><a href="cse-faculty-sujoyprofile.html">Sujoy Sarkar</a></li>
-				<li><a href="cse-faculty-surenderprofile.html">Surender M</a></li>
-				<li><a href="cse-faculty-venkatramanprofile.html">Venkat Raman</a></li>
-				<li><a href="assets/profile/RTCS160326.pdf" target="_blank">K Ravikanth</a></li>
-				</ul>  
-			   
-                                </ul>                    
-                            </section><!--//widget-->
-                        </aside><!--//page-sidebar-->
-                        <div class="content-wrapper col-md-9 col-sm-9">  
-                            <div class="page-row">
-                                <h1 class="no-margin-top has-divider text-highlight" style="color:#800517;">G. Srujana</h1>
-                               <div class="container-fluid">
-			<table class="table table-borderless" style="width:940px;">
-			<tr class="active"><th colspan="2" class="text-left">Assistant professor </th></tr>
-			<tr><td style="width:50px;"><div align="left"> <img style="border-radius: 0px 0px 0px 0px;" height="140" 		width="110" id="logo" src="assets/images/staff/srujana.jpg" alt="Logo"></div></td>
-			<td>
-			<div class="row"><div class="col-md-3"><strong><i class="fa fa-university" aria-hidden="true"></i> Education</strong></div><div class="col-md-9 col-md-pull-1">: M.Tech.</div></div>
-			<div class="row"><div class="col-md-3"><strong><i class="fa fa-envelope" aria-hidden="true"></i> Email</strong></div><div class="col-md-9 col-md-pull-1">: srujana.g@rgukt.in</div></div>
-			<div class="row"><div class="col-md-3"><strong><i class="fa fa-mobile" aria-hidden="true"></i> Phone </strong></div><div class="col-md-9 col-md-pull-1">: +91 - 9490141635</div></div>
-			 Mr. Srjana G has joined the institute in 2016.</td></tr>
-			<tr class="active"><th colspan="2" class="text-left">Career Data / Experience (Teaching / Industry )</th></tr>
-			<tr><td colspan="2">
-			<ul>
-			<li>Experience: <script>document.write(getAge('10/06/2012'));</script></li>
-			</ul></td></tr>
-			<tr class="active"><th colspan="2" class="text-left">Research Interest / Activity and area of specialization </th></tr>
-			<tr><td colspan="2">
-			<ol>
-			<li>Cryptography</li>
-			<li>Data mining</li>
-			<li>Mobile networks</li>
-			</ol>
-			</td></tr>
-			<tr class="active"><th colspan="2" class="text-left">Teaching Interest (Subjects dealt so far)</th></tr>
-			<tr><td colspan="2">
-			<ul>
-			<li>Formal Languages and Automata Theory</li>
-			<li>Compiler Design</li>
-			<li>Data base Management Systems</li>
-			<li>C and Data Structures</li>
-			</ul>
-			</td></tr>
-			<tr class="active"><th colspan="2" class="text-left">Number of Projects guided so far: 30</th></tr>
-			</table>
-			</div>                                            
-                            </div><!--//page-row-->                                                                 
-                        </div><!--//content-wrapper-->                    
-                    </div><!--//page-row-->
-                </div><!--//page-content-->
-            </div><!--//page--> 
-        </div><!--//content-->
+<br>RGUKT Basar<br>Nirmal, Telangana<br>Pin: 504107<br><!--Cell: 8985485720-->email: hod.mme@rgukt.ac.in</p>
+                              
+                              
+                           </div>
+                           <!--//section-content-->
+                        </section>
+                           </aside>
+                           <!--//page-sidebar-->
+                           <div class="content-wrapper col-md-7 col-sm-9">
+                              <div class="page-row text-justify" style="margin-bottom:">
+                              <div class="page-row box" style="background:#16a085;color:white;">
+                                 <h2 class="text-center">DEPARTMENT OF METALLURGICAL AND MATERIALS ENGINEERING</h2>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top:-20px;">
+                              <div class="panel-body">
+                                
+                                 
+                                
+                                 <h4 class="no-margin-top has-divider text-highlight" style="color:#800517;">Staff</h4>
+                                 <div class="row">
+                                    <div class="col-md-6 focusover">
+                                       <div class="row" style="padding-top:15px;padding-bottom:15px;">
+                                          <div class="col-md-4">
+                                             <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/kmahesh.jpg"></div>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h4 style="margin-top:-2px;"><a>K Mahesh</a><br><small>M.Sc (Chemistry), PGDCA</small></h4>
+                                             <p style="margin-top:-10px;margin-bottom:-2px;">Lab Assistant</p>
+                                             <div class="row">
+                                                <div class="col-md-2"><strong>Email</strong></div>
+                                                <div class="col-md-10">:maheshkadam@rgukt.ac.in</div>
+                                             </div>
+                                            
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6 focusover">
+                                       <div class="row" style="padding-top:15px;padding-bottom:15px;">
+                                          <div class="col-md-4">
+                                             <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/knag.jpg"></div>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h4 style="margin-top:-2px;"> <a>K.Nageswararao</a><br><small>B.Tech</small></h4>
+						
+                                             <p style="margin-top:-10px;margin-bottom:-2px;">Lab Assistant</p>
+                                             <div class="row">
+                                                <div class="col-md-2"><strong>Email</strong></div>
+                                                <div class="col-md-10">:nageswararakavati@rgukt.ac.in</div>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <br>
+                                 <div class="row">
+                                    <!--<div class="col-md-6 focusover">
+                                       <div class="row" style="padding-top:15px;padding-bottom:15px;">
+                                          <div class="col-md-4">
+                                             <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/ashokg.jpg"></div>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h4 style="margin-top:-2px;"><a>A. Ashok Kumar</a><br><small>M.Tech (NIT Warangal)</small></h4>
+                                             
+                                             <p style="margin-top:-10px;margin-bottom:-2px;">Lab Assistant</p>
+                                             <div class="row">
+                                                <div class="col-md-2"><strong>Email</strong></div>
+                                                <div class="col-md-10">:ashokiiitbas@rgukt.in</div>
+                                             </div>
+                                            
+                                          </div>
+                                       </div>
+                                    </div>-->
+                                    <div class="col-md-6 focusover">
+                                       <div class="row" style="padding-top:15px;padding-bottom:25px;">
+                                          <div class="col-md-4">
+                                             <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/jsathish.jpg"></div>
+                                          </div>
+                                          <div class="col-md-8 text-justify">
+                                             <h4 style="margin-top:-2px;"> <a>J. Satish</a><br><small>ITI, M.A (Public Admin)</small></h4>
+                                             <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
+                                             <div class="row">
+                                                <div class="col-md-2"><strong>Email</strong></div>
+                                                <div class="col-md-10">:jallelasatish@rgukt.ac.in</div>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <br>   
+                                    
+                                 
+                              </div>
+                           </div>
+                              <!--//page-row-->                                                                 
+                           </div>
+                           <!--//content-wrapper--> 
+                           <div class="col-md-3">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                    <b>News & Updates</b>
+                                 </div>
+                                 <div class="panel-body">
+                                    <div class="row">
+                                       <div class="col-xs-12">
+                                          WILL BE UPDATED SOON!!!
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!--//page-row-->
+                     </div>
+                     <!--//page-content-->
+                  </div>
+                  <!--//page--> 
+               </div><!--//content-->
     </div><!--//wrapper-->
     
     <!-- ******FOOTER****** --> 
@@ -223,14 +387,14 @@
                 <div class="row">
                 <div class="footer-col col-md-2 col-sm-4 about">
                     <div class="footer-col-inner">
-                       <h3>Quick Links</h3>
-                              <ul>
-                                 <li><a href="#"><i class="fa fa-caret-right"></i>About us</a></li>
-                                 <li><a href="/assets/docs/consultancy_policy.pdf"><i class="fa fa-caret-right"></i>Consultancy Policy</a></li>
+                        <h3>Quick Links</h3>
+                         <ul>
+                            <li><a href="#"><i class="fa fa-caret-right"></i>About us</a></li>
+                            <li><a href="/assets/docs/consultancy_policy.pdf"><i class="fa fa-caret-right"></i>Consultancy Policy</a></li>
                                  <li><a href="/assets/docs/statutory_bodies.pdf"><i class="fa fa-caret-right"></i>Statutory Bodies</a></li>
                                  <li><a href="/assets/docs/HUMAN_VALUES.pdf"><i class="fa fa-caret-right"></i>Human Values</a></li>
-                                 <li><a href="contactus.html"><i class="fa fa-caret-right"></i>Contact us</a></li>
-                              </ul>
+                            <li><a href="contactus.html"><i class="fa fa-caret-right"></i>Contact us</a></li>
+                        </ul>
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
  <div class="footer-col col-md-4 col-sm-8 newsletter">
@@ -299,7 +463,7 @@
                     <small class="copyright col-md-4 col-sm-12 col-xs-12">Copyright @ Rajiv Gandhi University of Knowledge Technologies - Basar</a></small>   
 		     <small class="copyright col-md-4 col-sm-12 col-xs-12 text-center">Send your Feedback/Comments to webmaster@rgukt.ac.in</a></small>
                     <ul class="social pull-right col-md-4 col-sm-12 col-xs-12">
-                                                <li><a href="https://twitter.com/RguktBasar" ><i class="fa fa-twitter"></i></a></li>
+                                             <li><a href="https://twitter.com/RguktBasar" ><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.facebook.com/Rajiv-Gandhi-University-of-Knowledge-Technologies-957307201014667/" ><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UC_5eZQWA2Celmz2Plt-bKfA" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/rgukt-basar-41b210114" target="_blank"><i class="fa fa-linkedin"></i></a></li>
