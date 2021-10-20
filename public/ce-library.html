@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <!--[if IE 8]> 
 <html lang="en" class="ie8">
@@ -26,6 +28,18 @@
             <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css">
             <!-- Theme CSS -->  
             <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+		<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+   <script> 
+$(function(){
+  $("#header").load("assets/images/chemical/news-updates.html"); 
+ 
+});
+</script> 
+
          </head>
          <body class="home-page">
             <div class="wrapper">
@@ -112,7 +126,7 @@
                               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="index.html#">FACILITIES <i class="fa fa-angle-down"></i></a>
                               <ul class="dropdown-menu">
                                  <li><a href="hostels.html">Hostels</a></li>
-                                 <li><a href="">Conference Halls</a></li><li><a href="counseling.html">Counseling Center</a></li>
+                                 <li><a href="">Conference Halls</a></li>
                                  <li><a href="library/">Central Library</a></li>
                                  <li><a href="hospital.html">Medical</a></li>
                                  <li><a href="">Bank & ATM</a></li>
@@ -134,9 +148,9 @@
                                   <li><a href="contactus.html">Contact Us</a></li>
                               </ul>
                               </li><!--//dropdown-->
+                           <li class="nav-item"><a href="examination.html">Examinations</a></li>
                            <li class="nav-item"><a href="placement/">PLACEMENTS</a></li>
                            <li class="nav-item"><a href="http://careers.rgukt.ac.in" target="_blank">Careers</a></li>
-                           <li class="nav-item"><a href="tenders.html">Tenders</a></li>
                            <li class="nav-item"><a href="contactus.html">Contact</a></li>
                         </ul>
                         <!--//nav-->
@@ -148,9 +162,8 @@
                <!--//main-nav-->
                <!-- ******CONTENT****** -->
                <div class="content container">
-                  <div class="page-wrapper">
+                  <div class="page-wrapper" style="margin-top:-20px;">
                      <header class="page-heading clearfix">
-                        <h1 class="heading-title pull-left">Civil Engineering</h1>
                         <div class="breadcrumbs pull-right">
                            <ul class="breadcrumbs-list">
                               <li class="breadcrumbs-label">You are here:</li>
@@ -161,7 +174,7 @@
                         </div>
                         <!--//breadcrumbs-->
                      </header>
-                     <div class="page-content" style="margin-top:-20px;">
+                     <div class="page-content">
                         <aside class="page-sidebar col-md-2 col-sm-3 affix-top">
                            <section>
                               <nav id="sidebar">
@@ -180,7 +193,7 @@
                                           </li>
                                        </ul>
                                        </li>-->
-                                    <li class="active">
+                                    <li>
                                        <a href="#">Home</a>
                                     </li>
                                     <li>
@@ -208,7 +221,7 @@
                                     <li>
                                        <a href="#" target="_blank">Research Publications</a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                        <a href="#pageSub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Facilities <i class="fa fa-angle-down"></i></a>
                                        <ul class="collapse list-unstyled" id="pageSub">
                                           <li>
@@ -216,7 +229,7 @@
                                           <li><a href="#" target="_blank"><i class="fa fa-angle-right" style="margin-left:20px;"></i> LAB Manuals</a></li>
                                           </li>
                                           <li>
-                                             <a href="ce-library.html"><i class="fa fa-angle-right"></i>Library</a>
+                                             <a href="#"><i class="fa fa-angle-right"></i>Library</a>
                                           </li>
                                           <li>
                                              <a href="#"><i class="fa fa-angle-right"></i>Student Activity Room</a>
@@ -244,7 +257,7 @@
                            <section class="panel panel-darkblue">
                               <h5 class="panel-heading no-margin-top"><strong>Contact</strong></h5>
                               <div class="section-content panel-body">
-                                 <p>HoD/Civil Engineering<br>RGUKT Basar<br>Nirmal, Telangana<br>Pin: 504107<br>email: hod.ce@rgukt.ac.in</p>
+                                  <p>HoD/Civil Engineering<br>RGUKT Basar<br>Nirmal, Telangana<br>Pin: 504107<br>email: hod.ce@rgukt.ac.in</p>
                               </div>
                               <!--//section-content-->
                            </section>
@@ -267,137 +280,81 @@
                                        <h2 class="text-center">DEPARTMENT OF CIVIL ENGINEERING</h2>
                                     </div>
                                     <div class = "panel-body">
-                                       <!--<div id="promo-slider" class="slider flexslider">
-                                          <ul class="slides">
-                                             <li>
-                                                <img src="assets/images/eee/slide-1.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" > Power Systems Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-2.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" >Electrical Machines-I Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-3.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" >Electrical Machines-II Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-4.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <!-- <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" > Basic Electrical Engineering Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-5.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" >Electrical Measurements Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-6.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <!-- <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" >Power Electronics Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-7.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <!-- <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" > Light Loads</span>
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-8.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <!-- <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" > Control Systems Lab</span> 
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-9.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <!-- <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" > Faculty cabins in the Department</span>
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <img src="assets/images/eee/slide-10.jpg"  alt="" height="440px;"/>
-                                                <p class="flex-caption">
-                                                   <!-- <span class="main" >Haritha Haram Programme</span>
-                                                   <br />
-                                                   <span class="secondary clearfix" > Committee Room</span>
-                                                </p>
-                                             </li>
-                                          </ul>
-                                          <!--//slides
-                                       </div>-->
-                                       <div class="page-row box">
-                                          <ul class="list-unstyled no-margin-bottom">
-                                             <li>
-                                                <p>
-                                                <h4><strong>Welcome to the Department of Civil Engineering</h4>
-                                                </strong></p>
-                                                Department of CIVIL at RGUKT has continuously upgraded itself interms of academic programes and Laboratory facilities. Department attracts the students who are passionate towards their Dreams and Architecture. Department provides excellence of the academics & proffesional experience of students by implementing the subject practically. Department also handle Internship projects. 
-                                                <!--  <li><i class="fa fa-mail" aria-hidden="true"></i> Mail: icafm@rgukt.ac.in</strong></li>-->
-                                          </ul>
-                                       </div>
-                                       <!--<div class="page-row box">
-                                          <ul class="list-unstyled no-margin-bottom">
-                                             <li>
-                                                <p>
-                                                <h4><strong>Vision</h4>
-                                                </strong></p>
-                                                To transform the present day Electrical students into the future world-class Electrical Engineers there by catering the needs of current visionary society. 
-                                          </ul>
-                                       </div>-->
-                                       <!--<div class="page-row box">
-                                          <ul class="list-unstyled no-margin-bottom">
-                                             <li>
-                                                <p>
-                                                <h4><strong>Mission</h4>
-                                                </strong></p>
-                                                <ol>
-                                             <li>To supervise and teach the students with Learning by doing method.</li>
-                                             <li>To concentrate on students career building and to maintain conductive environment between student and faculty.</li>
-                                             <li>To facilitate the students with all kind of facilities thus creating a platform for the students to showcase their exceptional talent and contribute to the societal development.</li>
-                                             <li>To keep students trending with the changing in technology and advancement in Electrical Engineering.</li>
-                                             <li>To encourage the students to work on the innovating technology that could improve the basic life of a common people.</li>
-                                             <ol>
-                                          </ul>
-                                       </div>-->
-                                       <!--<div class="page-row box">
-                                          <ul class="list-unstyled no-margin-bottom">
-                                             <li>-->
-					<div class="page-row box">
-                                                <p>
-                                                <h4><strong>HOD’s Message</h4>
-                                                </strong></p>
-                                               Department of Civil engineering at RGUKT Basar was continuously upgrading itself in terms of the academic programs and infrastructural facilities including the laboratories, since its inception in 2010. We have highly qualified and experienced faculty from reputed institutions to enrich the students technically. We also have sophisticated and advanced laboratories to impart practical knowledge for the students. Our department consists of around 600 students, 10+ faculty and 10 laboratories. The department conducts events like Engineers day, workshops, training programs and field visits. We encourage our students to take part in various project internships and finishing school programs offered by the state Government. Our students have made us really proud by working in public sector and various multinational companies. We would be happy to receive any kind of suggestions from your side. 
-                                          </ul>
-                                       </div>  </div>
+
+					<div class="row">
+                                      <div class="col-md-12"><img class="img-responsive" src="assets/images/chemical/Department-Library.jpg" alt="Department of Chemical Engineering"></div>
+                                             <table class="table table-bordered container-fluid">
+<thead>
+                                             <tr>
+                                                <th colspan="6">LIBRARY BOOKS DETAILS</th>
+                                             </tr>
+                                             <tr>
+                                                <th scope="col">Author Name</th>
+                                                <th scope="col">Book Name</th>
+                                                <th scope="col">Department</th>
+						 <th scope="col">Quantity</th>
+						<th scope="col">Reference No's 1</th>
+						<th scope="col">Reference No's 2</th>
+                                             </tr>
+                                          </thead>
+<tr><td></td><td></td><td> </td><td></td><td></td><td></td></tr>
+<tr><td>Bhat</td><td>Engineering drawing</td><td>Civil Engineering </td><td>1</td><td>00096</td><td>NA</td></tr>
+<tr><td>Ramamrutham</td><td>Strength of material</td><td>Civil Engineering </td><td>1</td><td>00104</td><td>NA</td></tr>
+<tr><td>Venugopal</td><td>Engineering drawing</td><td>Civil Engineering </td><td>2</td><td>03398</td><td>03332</td></tr>
+<tr><td>Popoy</td><td>Engineeing mechanics of solids</td><td>Civil Engineering </td><td>2</td><td>03568</td><td>03575</td></tr>
+<tr><td>Punnia</td><td>Building Construction </td><td>Civil Engineering </td><td>2</td><td>07582</td><td>07589</td></tr>
+<tr><td>timo shenko</td><td>strength of meterial 3/e elementary theory & problems</td><td>Civil Engineering </td><td>2</td><td>08024</td><td>08074</td></tr>
+<tr><td>arora</td><td>surveying vol.1 12/e</td><td>Civil Engineering </td><td>2</td><td>08166</td><td>08150</td></tr>
+<tr><td>Timoshenko </td><td>Elements of strength of materials</td><td>Civil Engineering </td><td>2</td><td>08262</td><td>08225</td></tr>
+<tr><td>FOX</td><td>Introduction  to fluid mechanics</td><td>Civil Engineering </td><td>2</td><td>08796</td><td>08768</td></tr>
+<tr><td>Rangwala</td><td>Engineering materials  material science</td><td>Civil Engineering </td><td>2</td><td>08627</td><td>08644</td></tr>
+<tr><td>Mukerjee</td><td>A  text book of Geology</td><td>Civil Engineering </td><td>2</td><td>08929</td><td>608950</td></tr>
+<tr><td>Arora </td><td>Surveying vol 2</td><td>Civil Engineering </td><td>2</td><td>09019</td><td>09043</td></tr>
+<tr><td>Arora </td><td>Surveying vol 3</td><td>Civil Engineering </td><td>2</td><td>09160</td><td>09139</td></tr>
+<tr><td>Beer </td><td>Mechanics of Materials</td><td>Civil Engineering </td><td>2</td><td>09231</td><td>09192</td></tr>
+<tr><td>Williams</td><td>Structural analysis in theory and practice</td><td>Civil Engineering </td><td>2</td><td>10404</td><td>09635</td></tr>
+<tr><td>Gambhir</td><td>Concrete technology</td><td>Civil Engineering </td><td>2</td><td>09976</td><td>09977</td></tr>
+<tr><td>neville</td><td>Concrete technology</td><td>Civil Engineering </td><td>2</td><td>10443</td><td>10441</td></tr>
+<tr><td>ojha</td><td>Fluid mechanics and machinary</td><td>Civil Engineering </td><td>2</td><td>10723</td><td>10666</td></tr>
+<tr><td>Duggal</td><td>eliments of water resources engineering</td><td>Civil Engineering </td><td>2</td><td>10970</td><td>10965</td></tr>
+<tr><td>Subramanya</td><td>Engineering hydrology</td><td>Civil Engineering </td><td>2</td><td>11074</td><td>01129</td></tr>
+<tr><td>Moorthy</td><td>Structural analysis </td><td>Civil Engineering </td><td>2</td><td>11536</td><td>11571</td></tr>
+<tr><td>White</td><td>Fluid mechanics </td><td>Civil Engineering </td><td>1</td><td>11860</td><td>NA</td></tr>
+<tr><td>Das</td><td>Principles of Geotechnical Engineering 5/ED</td><td>Civil Engineering </td><td>2</td><td>15165</td><td>15080</td></tr>
+<tr><td>Khanna</td><td>High Way Engineering</td><td>Civil Engineering </td><td>2</td><td>15312</td><td>15349</td></tr>
+<tr><td>Jain</td><td>Reinforced Concrete 7/ED</td><td>Civil Engineering </td><td>2</td><td>15452</td><td>15436</td></tr>
+<tr><td>Subramanya</td><td>Flow In Open Channels 3E</td><td>Civil Engineering </td><td>2</td><td>15912</td><td>15936</td></tr>
+<tr><td>Ghuptha</td><td>Roads railways bridges tunnels &harbour dock eng</td><td>Civil Engineering </td><td>2</td><td>15746</td><td>15780</td></tr>
+<tr><td>Pillai</td><td>Reinforced Concrete design 3E</td><td>Civil Engineering </td><td>2</td><td>15857</td><td>15822</td></tr>
+<tr><td>Ashford</td><td>Airport Engineering 4/ED</td><td>Civil Engineering </td><td>2</td><td>17144</td><td>17135</td></tr>
+<tr><td>chakrabarti</td><td>Steel Making</td><td>Civil Engineering </td><td>2</td><td>17151</td><td>17153</td></tr>
+<tr><td>Das</td><td>principles of foundation engg 6/ED</td><td>Civil Engineering </td><td>2</td><td>17284</td><td>17254</td></tr>
+<tr><td>Peavy</td><td>Environmental engg </td><td>Civil Engineering </td><td>2</td><td>02048</td><td>17340</td></tr>
+<tr><td>Duggal</td><td>Limit State Desing of Steel Structures</td><td>Civil Engineering </td><td>2</td><td>19719</td><td>17421</td></tr>
+<tr><td>Garg</td><td>Sewage Disposal & Air Pollution Engineering</td><td>Civil Engineering </td><td>2</td><td>18336</td><td>18345</td></tr>
+<tr><td>Garg</td><td>Water Supply Engineering</td><td>Civil Engineering </td><td>2</td><td>18363</td><td>18356</td></tr>
+<tr><td>Subramaniam</td><td>Design of steel Structures</td><td>Civil Engineering </td><td>2</td><td>18407</td><td>18399</td></tr>
+<tr><td>Shah</td><td>Building Drawing Built Environment 5/ed</td><td>Civil Engineering </td><td>2</td><td>18476</td><td>18456</td></tr>
+<tr><td>anjenyulu </td><td>Introduction to environmental science</td><td>Civil Engineering </td><td>2</td><td>19647</td><td>19664</td></tr>
+ <tr><td>das </td><td>principles of foundation engg</td><td>Civil Engineering </td><td>2</td><td>19674</td><td>19691</td></tr>
+<tr><td>balagopal </td><td>Building Desing & civil engg drawing</td><td>Civil Engineering </td><td>2</td><td>17401</td><td>17374</td></tr>
+<tr><td> murthy </td><td>watershed management 2</td><td>Civil Engineering </td><td>2</td><td>26326</td><td>20321</td></tr>
+<tr><td>Menon</td><td>Structural Aanlysis</td><td>Civil Engineering </td><td>2</td><td>02049</td><td>20500</td></tr>
+<tr><td>Knutson</td><td>Construction Management Fundamentals</td><td>Civil Engineering </td><td>2</td><td>20581</td><td>20524</td></tr>
+<tr><td>Dutta</td><td>Estimation & Costing in civil Engineering</td><td>Civil Engineering </td><td>2</td><td>20612</td><td>20661</td></tr>
+<tr><td>hausmann</td><td>engineering principles of ground modification</td><td>Civil Engineering </td><td>2</td><td>21068</td><td>21074</td></tr>
+<tr><td>Bhatta</td><td>remote sensing and GIS 2/ED</td><td>Civil Engineering </td><td>2</td><td>21704</td><td>21703</td></tr>
+ </table>
+
+                                  
+                     
+				       </div>
+ 
+				
                                     </div>
+					
                                  </div>
+				
                                  <!--//page-row-->
                               </div>
                            </div>
@@ -405,7 +362,7 @@
                         </div>
                         <!--//content-wrapper--> 
                         <div class="col-md-3">
-                           <div class="panel panel-default" style="height:400px;">
+                           <div class="panel panel-default">
                               <div class="panel-heading">
                                  <b>News & Updates</b>
                               </div>
@@ -421,10 +378,12 @@
                                  </div>
                               </div>
                            </div>
+			  
                         </div>
                      </div>
                      <!--//page-row-->
                   </div>
+                  <!--//page-content-->
                </div>
                <!--//page--> 
             </div>
@@ -437,7 +396,7 @@
                      <div class="row">
                         <div class="footer-col col-md-2 col-sm-4 about">
                            <div class="footer-col-inner">
-                              <h3>About</h3>
+                              <h3>Quick Links</h3>
                               <ul>
                                 <li><a href="about-rgukt.html"><i class="fa fa-caret-right"></i>About us</a></li>
                                  <li><a href="/assets/docs/consultancy_policy.pdf"><i class="fa fa-caret-right"></i>Consultancy Policy</a></li>
