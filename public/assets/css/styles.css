@@ -394,6 +394,8 @@ ul.custom-list-style li {
 }
 .panel-group .panel .panel-heading .panel-title a {
   color: #6091ba;
+  content: "\f0fe";
+  
 }
 .panel-group .panel .panel-heading .panel-title a:before {
   font-family: FontAwesome;
