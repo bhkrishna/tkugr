@@ -2222,7 +2222,6 @@ a[aria-expanded="true"] {
     background: #00695c;
 }
 
-
 #sidebar1 ul li.active>a i.fa{
     color: white;
     
@@ -2260,6 +2259,11 @@ ul.CTAs a {
     display: block;
     border-radius: 5px;
     margin-bottom: 5px;
+}
+
+#exam a[aria-expanded="true"] {
+    color: #6091ba;
+    background: white;
 }
 
 
