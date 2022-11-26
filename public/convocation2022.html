@@ -225,7 +225,11 @@
                                        		<p class="text-right"><a href="https://en.wikipedia.org/wiki/Rajesh_Tandon" target="_blank">More....</a></p>
                                        		</div>
                                        		 </div>  </div> --> 
-                                    <img src="assets/images/rgukt/convocation.JPG" class="img-rounded img-responsive"/><br>
+                                    <!--<img src="assets/images/rgukt/convocation.JPG" class="img-rounded img-responsive"/><br>-->
+<a id="play-video" href="#">Play Video</a><br />
+ 
+<iframe width="890" height="315" src="https://www.youtube.com/embed/a9ANbc_rS3Y?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
                                     We are happy to inform you that RGUKT Basar campus is celebrating its 5th Convocation on the campus which will be held on <font color="red">* Tentative date for convocation scheduled on 10.12.2022</font>
                                  </p>
                                  <p style="margin-bottom:16px;">You are invited to register your name, for obtaining B. Tech/M.Tech. Original Degree and Consolidated Transcript. Degrees and consolidated transcripts will be handed over in person to those who attend the convocation ceremony. Those, who are unable to attend the ceremony, can have the original degree and CMM by post.</p>
@@ -425,7 +429,17 @@ expenses(Lunch) will be met by the University from the Convocation fee paid.</p>
             <script type="text/javascript" src="assets/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
             <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
             <script type="text/javascript" src="assets/plugins/jflickrfeed/jflickrfeed.min.js"></script> 
-            <script type="text/javascript" src="assets/js/main.js"></script>            
+            <script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+$(document).ready(function() {
+  $('#play-video').on('click', function(ev) {
+ 
+    $("#video")[0].src += "&autoplay=1";
+    ev.preventDefault();
+ 
+  });
+});
+</script>            
          </body>
       </html>
 
